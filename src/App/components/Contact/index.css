@@ -1,0 +1,31 @@
+#contact {
+    background-image: linear-gradient(to right, #E90DDA 0%, #15CFF1 100%);
+    background-size: 0% 100%;
+    background-repeat: no-repeat;
+    transition: background-size 2s cubic-bezier(0,.61,1,.4);
+    margin-bottom: 0rem;
+}
+
+#contact.animated {
+    background-size: 100% 100%;
+}
+
+#title {
+    margin-top: 1.5rem;
+    font-size: 8vw;
+    font-weight: 600;
+}
+
+.text {
+    color: white;
+    text-align: center;
+}
+
+#email:hover {
+    background-color: whitesmoke;
+}
+
+#email-container {
+    margin-top: 1rem;
+    padding: 1em;
+}

@@ -1,0 +1,19 @@
+#header {
+    margin-top: 0;
+    margin-bottom: 2rem;
+}
+
+h1#title {
+    min-height: 10rem;
+    width: 100%;
+    pointer-events: none;
+    font-size: 10vw;
+    font-weight: 1200;
+}
+  
+@media (max-width: 768px) {
+  #home{
+    padding-top: 1vh;
+    padding-bottom: .1vh;
+  }
+}

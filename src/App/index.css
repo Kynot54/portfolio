@@ -1,0 +1,95 @@
+/*DOM*/
+html {
+  scroll-behavior: smooth;
+}
+
+/*App*/
+.App {
+  text-align: center;
+}
+
+.viewport {
+  align-items: center;
+  display: flex;
+  margin-bottom: 10.69rem;
+  min-height: 100vh;
+  padding: 0 1rem;
+}
+
+/*Buttons*/
+#know-more-btn {
+  font-size: 150%;
+  background-image: linear-gradient(135deg,#E90DDA,#15CFF1);
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  border-width: .125em;
+  border-style: solid;
+  border-image: linear-gradient(135deg,#E90DDA,#15CFF1);
+  border-image-slice: 1;
+}
+
+#know-more-btn:hover {
+  opacity: .70;
+}
+
+#resume{
+  margin-bottom: 1.5rem;
+  border-width: .125em;
+  font-size: 150%;
+  border-style: solid;
+}
+
+#resume:hover {
+  background-color: rgba(255,255,255,.04);
+  color: white;
+  border-style: solid;
+  
+}
+
+#project-button {
+  font-size: 150%;
+  background-image: linear-gradient(135deg,#E90DDA,#15CFF1);
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  border-width: .125em;
+  border-image: linear-gradient(135deg,#E90DDA,#15CFF1);
+  border-image-slice: 1;
+  margin-bottom: 1.5rem;
+}
+
+#project-button:hover {
+  opacity: 0.70;
+}
+
+#email {
+  font-size: 150%;
+  border-width: .125em;
+}
+
+#email:hover {
+  background-color: rgba(255,255,255,.04);
+  color: white;
+  border-style: solid;
+  
+}
+
+/*Media Queries*/
+@media (max-width: 768px) {
+  #email #project-button #resume #know-more-btn {
+      font-size: 100%;
+  }
+} 
+
+@media (max-width: 768px) {
+    html {
+      scroll-padding-top: 13rem; /* height of sticky header */
+    }
+}
+
+@media (max-width: 425px) {
+  .viewport{
+    display: block;
+    margin-bottom: 1rem;
+    min-height: auto;
+  }
+}

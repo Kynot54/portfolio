@@ -1,0 +1,49 @@
+#about {
+    background-image: linear-gradient(to right, #E90DDA 0%, #15CFF1 100%);
+    background-size: 0% 100%;
+    background-repeat: no-repeat;
+    transition: background-size 2s cubic-bezier(0,.61,1,.4);
+    margin-top: 0;
+    margin-bottom: 5rem;
+}
+
+#about.animated {
+    background-size: 100% 100%; 
+}
+
+#about-title {
+    margin-top: 1.5rem;
+    padding: 2rem;
+    font-size: 8vw;
+    font-weight: 600;
+    color: white;
+}
+
+.about-text {
+    color: white;
+}
+
+.about-paragraph {
+    text-align: justify;
+}
+
+#pro-pic {
+    max-height: 60vh;
+    background-clip: content-box;
+    background-size: cover;
+}
+
+@media (min-width: 1440px) and (max-width: 2560px) {
+    .about-text {
+        font-size: 200%;
+    }
+    .about-title {
+        margin-top: 2.5rem;
+        font-weight: 400;
+        font-size: 300%;
+    }
+    #pro-pic {
+        align-self: center;
+        margin-bottom: 1.5rem;
+    }
+}
