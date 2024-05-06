@@ -1,7 +1,6 @@
 import Navbar  from "react-bootstrap/Navbar";
 import Container from "react-bootstrap/Container";
 import Col from "react-bootstrap/Col";
-import Image from "react-bootstrap/Image";
 import Nav  from "react-bootstrap/Nav";
 import "./index.css";
 
@@ -10,7 +9,7 @@ const MyNavBar = (props) => {
     return (
     <>
         <div id="home"></div>
-         <Navbar collapseOnSelect sticky="top" expand="lg">
+         <Navbar collapseOnSelect fixed="top" variant="dark" expand="lg">
             <Container fluid>
                 <Col></Col>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />

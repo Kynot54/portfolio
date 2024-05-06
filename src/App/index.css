@@ -78,18 +78,11 @@ html {
   #email #project-button #resume #know-more-btn {
       font-size: 100%;
   }
-} 
-
-@media (max-width: 768px) {
-    html {
-      scroll-padding-top: 13rem; /* height of sticky header */
-    }
 }
 
 @media (max-width: 425px) {
   .viewport{
     display: block;
     margin-bottom: 1rem;
-    min-height: auto;
   }
 }

@@ -5,6 +5,7 @@
     transition: background-size 2s cubic-bezier(0,.61,1,.4);
     margin-top: 0;
     margin-bottom: 5rem;
+    overflow: auto
 }
 
 #about.animated {

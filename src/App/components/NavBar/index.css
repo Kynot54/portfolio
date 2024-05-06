@@ -6,23 +6,27 @@
     padding-right: 10rem;
 }
 
-.navbar-light .navbar-toggler {
+.navbar-dark .bg-dark {
+    background-color: rgb(0,0,0);
+}
+
+.navbar-dark .navbar-toggler {
     border-color: rgba(200, 200, 200, 0.75);
 }
 
-.navbar-light .navbar-toggler-icon {
+.navbar-dark .navbar-toggler-icon {
     background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'><path stroke='%23cccccc' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/></svg>"); 
 }
 
-.navbar-light .navbar-nav .nav-link {
+.navbar-dark .navbar-nav .nav-link {
     color: rgba(245, 245, 245, 0.75);
 }
 
-.navbar-light .navbar-nav .nav-link:hover {
+.navbar-dark .navbar-nav .nav-link:hover {
     color: rgba(215,215,215, 0.75);
 }
 
-.navbar-light .navbar-nav .nav-link.active {
+.navbar-dark .navbar-nav .nav-link.active {
     color: rgba(255, 255, 255, 0.9);
 }
 

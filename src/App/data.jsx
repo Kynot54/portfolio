@@ -36,9 +36,6 @@ export const text = [
         //Contact
         title: "Contact Me",
         paragraph: "Get in Contact with Me. Click on this Button to Send an Email to Me, or reach out to me on the listed platforms below."
-    },
-    {
-        //Footer
     }
 ]
 

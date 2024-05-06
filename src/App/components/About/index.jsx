@@ -12,7 +12,6 @@ const MyAbout = (props) => {
     const {title, image, intro, paragraph} = props
 
     // Using Reference and State Hooks to Create an Animation as the User Enters the About Section of the Page
-
     const aboutRef = useRef(null);
 
     useEffect(() => {
@@ -39,13 +38,11 @@ const MyAbout = (props) => {
         <>
         <section ref={aboutRef} id="about" className="viewport">
             <Container className="text-center" fluid>
-                <br />
                 <h2 id="about-title">{title}</h2> 
                 <Row className="align-items-start">
                     <Col sm={6} xs={12}>
                         <Image id="pro-pic" alt="" src={image} rounded fluid></Image>
                     </Col>
-
                     <Col sm={6} xs={12}>
                         <p className="about-text about-paragraph">
                             {intro}
