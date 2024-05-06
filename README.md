@@ -16,6 +16,6 @@ The following resources are used:
 
 - [Google Fonts](https://fonts.google.com/)
 
-- Deployed by [Vercel](https://www.vercel.com/)
+- Deployed with [Vercel](https://www.vercel.com/)
 
 All other dependencies are located under the dependencies tab under this [public project](https://github.com/Kynot54/portfolio/network/dependencies).
