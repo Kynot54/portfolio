@@ -18,4 +18,4 @@ The following resources are used:
 
 - Deployed by [Vercel](https://www.vercel.com/)
 
-All other dependencies are located under the dependencies tab under this [public project](https://github.com/Kynot54/my-porfolio-website/network/dependencies).
+All other dependencies are located under the dependencies tab under this [public project](https://github.com/Kynot54/portfolio/network/dependencies).
