@@ -2,7 +2,7 @@
 
 The following resources are used:
 
-- [ReactJS](https://reactjs.org/) by Facebook Open Source a subsidiary of Facebook Inc, Along with Babel, Jest, and all other dependencies they have used.
+- [ReactJS](https://reactjs.org/) by Facebook Open Source a subsidiary of Facebook Inc, Along with Rust SWC.
 
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
