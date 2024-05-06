@@ -1,4 +1,9 @@
 /*DOM*/
+:root {
+  background-color: black;
+  -webkit-overflow-scrolling: touch;
+}
+
 html {
   scroll-behavior: smooth;
 }
