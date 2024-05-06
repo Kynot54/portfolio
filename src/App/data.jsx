@@ -40,14 +40,14 @@ export const text = [
 ]
 
 export const projects = [
-    {
+   {
         title: "AI Mind Companion",
         paragraph: "For our team's senior capstone project we developed an iOS/Android (native) AI Companaion application centered around the health and well-being of the elderly 65 years of age and older.",
         image: ai,
         sourceCode: "https://github.com/Kynot54/AI-Mind-Companion"
     },
     {
-        title: "Fully Hack 2024: Solar Insulation",
+        title: "Fully Hacks 2024: Solar Insulation",
         paragraph: "For Fully Hack's 2024 I teamed up with some collegaues I've made friends with while attending California State University, Fullerton. For our project in the annual hack-a-thon held on our campus we utilized the Wolfram API to create a web application that provides the best areas to install solar panels based on Solar Insulation data. To accomplish this we utilized a seperate maps API in combination with the ability to set a marker and radius around that area to collect data on a specific area selected by the end-user",
         image: solar,
         sourceCode: "https://github.com/Kynot54/SustainableEnergy",

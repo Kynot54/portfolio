@@ -4,8 +4,8 @@
     background-repeat: no-repeat;
     transition: background-size 2s cubic-bezier(0,.61,1,.4);
     margin-top: 0;
-    margin-bottom: 5rem;
-    overflow: auto
+    padding-bottom: 5rem;
+    overflow: true;
 }
 
 #about.animated {
@@ -22,6 +22,7 @@
 
 .about-text {
     color: white;
+    font-size: 125%;
 }
 
 .about-paragraph {
@@ -39,12 +40,12 @@
         font-size: 200%;
     }
     .about-title {
-        margin-top: 2.5rem;
+        padding-top: 2.5rem;
         font-weight: 400;
         font-size: 300%;
     }
     #pro-pic {
         align-self: center;
-        margin-bottom: 1.5rem;
+        padding-bottom: 1.5rem;
     }
 }

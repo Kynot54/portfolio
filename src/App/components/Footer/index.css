@@ -35,7 +35,7 @@
         height: .125em;
     }
     #githubIcon #linkedinIcon {
-        height: 1.5em;
-        width: 1.5em;
+        height: 1.5vh;
+        width: 1.5vh;
     }
 }

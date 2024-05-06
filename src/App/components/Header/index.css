@@ -1,9 +1,9 @@
 #header {
-    margin-top: 0;
     margin-bottom: 2rem;
 }
 
 h1#title {
+    margin-top: 17vh;
     min-height: 10rem;
     width: 100%;
     pointer-events: none;
@@ -13,8 +13,7 @@ h1#title {
   
 @media (max-width: 768px) {
   #home{
-    margin: 0;
-    padding-top: 0vh;
-    padding-bottom: 0vh;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
   }
 }

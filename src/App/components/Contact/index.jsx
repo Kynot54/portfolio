@@ -38,23 +38,23 @@ const MyContact = (props) => {
     return (
     <>
         <section ref={contactRef} id="contact" className="viewport">
-            <Container>
-                <Row>
+            <Container className="text-center">
+                <Row className="align-items-center">
                     <Col> <h2 id="title" className="text">{title}</h2> </Col>
                 </Row>
             <br />
-                <Row>
+                <Row className="align-items-center">
                     <Col>
                         <p className="text">{paragraph}</p>
                     </Col>
                 </Row>
-                <Row id="email-container">
+                <Row id="email-container" className="align-items-center">
                 <Col>
                     <Button id={`${button[3].id}`} variant={`${button[3].variantType}`} href={`${button[3].hLink}`} size={`${button[3].size}`}> {`${button[3].name}`} </Button>
                 </Col>
             </Row>
             </Container>
-        </section>
+        </section>            
     </> 
     );
 }

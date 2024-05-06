@@ -11,8 +11,8 @@ const MyHeader = (props) => {
     return (
     <>
         <header id="header" className="viewport">
-            <Container>
-                <Row>
+            <Container className="text-center">
+                <Row className="align-items-center">
                     <Col><h1 id="title">{title}</h1></Col>
                 </Row>
             <br />  

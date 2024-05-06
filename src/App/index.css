@@ -3,17 +3,12 @@ html {
   scroll-behavior: smooth;
 }
 
-/*App*/
-.App {
-  text-align: center;
-}
-
 .viewport {
   align-items: center;
   display: flex;
   margin-bottom: 10.69rem;
   min-height: 100vh;
-  padding: 0 1rem;
+  padding: 1rem 1rem;
 }
 
 /*Buttons*/
