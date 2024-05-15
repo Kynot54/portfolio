@@ -6,7 +6,7 @@ import Image from "react-bootstrap/Image";
 import {button} from "../../data.jsx";
 
 const MyProject = (props) => {
-    const {title, paragraph, seeMore, sourceCode, image} = props
+    const {title, paragraph, sourceCode, image} = props
         return (
         <>
             <Row className="project-containers align-items-center">
@@ -18,7 +18,7 @@ const MyProject = (props) => {
                         <Row>
                             <br />
                             <Col>
-                                <Button id={`${button[2].id}`} variant={`${button[2].variantType}`} href={`${seeMore}`} size={`${button[2].size}`}> {`${button[2].name}`} </Button>
+                                <Button id={`${button[2].id}`} variant={`${button[2].variantType}`} href={`${sourceCode}`} size={`${button[2].size}`}> {`${button[2].name}`} </Button>
                             </Col>
                         </Row>
                 </Col>
