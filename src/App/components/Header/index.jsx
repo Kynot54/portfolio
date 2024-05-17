@@ -6,8 +6,9 @@ import Button from "react-bootstrap/Button"
 import {button} from "../../data.jsx"
 import "./index.css"
 
-const MyHeader = (props) => {
+const Heading = (props) => {
     const {title} = props
+    // React Fragment Creates the Header Section of the Page with Bootstrap Components and Props
     return (
     <>
         <header id="header" className="viewport">
@@ -23,4 +24,4 @@ const MyHeader = (props) => {
     );
 }
 
-export default MyHeader;
+export default Heading;

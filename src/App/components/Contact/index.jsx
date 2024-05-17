@@ -8,11 +8,10 @@ import {button} from "../../data.jsx"
 
 import "./index.css"
 
-const MyContact = (props) => {
+const Contact = (props) => {
     const {title, paragraph} = props
 
     // Use Reference and State Hooks to Provide User with Animation as they enter the Contact Section
-
     const contactRef = useRef(null);
 
     useEffect(() => {
@@ -40,7 +39,7 @@ const MyContact = (props) => {
         <section ref={contactRef} id="contact" className="viewport">
             <Container className="text-center">
                 <Row className="align-items-center">
-                    <Col> <h2 id="title" className="text">{title}</h2> </Col>
+                    <Col> <h2 id="title">{title}</h2> </Col>
                 </Row>
             <br />
                 <Row className="align-items-center">
@@ -59,4 +58,4 @@ const MyContact = (props) => {
     );
 }
 
-export default MyContact;
+export default Contact;

@@ -4,8 +4,9 @@ import Col from "react-bootstrap/Col";
 import Nav  from "react-bootstrap/Nav";
 import "./index.css";
 
-const MyNavBar = (props) => {
+const Navigation = (props) => {
     const {tab1, tab2, tab3, tab4} = props
+    // React Fragment that Creates the Navigation Bar of the Page
     return (
     <>
         <div id="home"></div>
@@ -27,4 +28,4 @@ const MyNavBar = (props) => {
  );
 }
 
-export default MyNavBar;
+export default Navigation;

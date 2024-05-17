@@ -9,9 +9,9 @@ import { FaLinkedin } from "react-icons/fa";
 import "./index.css"
 
 // Footer Portion of the Page Where the Github and LinkedIn Icon Area
-export default function MyFooter() {
+export default function Footer() {
     return (
-        // React Fragment
+        // React Fragment that Creates the Footer Section of the Page
         <>
             <footer id="footer">
                 <Container>

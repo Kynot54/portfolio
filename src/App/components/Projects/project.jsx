@@ -5,8 +5,9 @@ import Image from "react-bootstrap/Image";
 
 import {button} from "../../data.jsx";
 
-const MyProject = (props) => {
+const Projects = (props) => {
     const {title, paragraph, sourceCode, image} = props
+    // React Fragment that Creates the Project Section of the Page for Each Project
         return (
         <>
             <Row className="project-containers align-items-center">
@@ -28,8 +29,8 @@ const MyProject = (props) => {
                 </Col>
             </Row>
             <br />
-            </>
+        </>
         )
 }
 
-export default MyProject;
+export default Projects;

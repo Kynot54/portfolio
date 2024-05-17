@@ -8,10 +8,10 @@ import {button} from "../../data.jsx"
 
 import "./index.css"
 
-const MyAbout = (props) => {
-    const {title, image, intro, paragraph} = props
+const About = (props) => {
+    const {aboutTitle, image, intro, aboutParagraph, interestTitle, interestsParagraph, skillsTitle, icons} = props
 
-    // Using Reference and State Hooks to Create an Animation as the User Enters the About Section of the Page
+    // Using Reference and Effect Hooks to Create an Animation as the User Enters the About Section of the Page
     const aboutRef = useRef(null);
 
     useEffect(() => {
@@ -25,7 +25,7 @@ const MyAbout = (props) => {
                 }
             });
         }, {
-            threshold: 0.5
+            threshold: 0.25
         });
 
         aboutObserver.observe(aboutSection);
@@ -33,13 +33,23 @@ const MyAbout = (props) => {
         return () => aboutObserver.disconnect();
     }, []);
 
+    const iconComponents = icons.map((icon) => {
+        const SkillIcon = icon.component;
+        return (
+        <Col md={3} sm={6} xs={6} key={icon.id} className="icon-col">
+            <SkillIcon className="icon-images" iconimage={icon.iconimage} size={100}/>
+        </Col>
 
+        );
+    });
+
+    // React Fragment Creates the About Section of the Page with Bootstrap Components and Props
     return(
         <>
         <section ref={aboutRef} id="about" className="viewport">
             <Container className="text-center" fluid>
-                <h2 id="about-title">{title}</h2> 
-                <Row className="align-items-start">
+                <h2 id="about-title">{aboutTitle}</h2> 
+                <Row className="align-items-center">
                     <Col sm={6} xs={12}>
                         <Image id="pro-pic" alt="" src={image} rounded fluid></Image>
                     </Col>
@@ -48,11 +58,23 @@ const MyAbout = (props) => {
                             {intro}
                         <br />
                         <br />
-                            {paragraph}
+                            {aboutParagraph}
                         </p>
                         <br />
+                    </Col>
+                </Row>
+                <Row className="justify-content-center-md-center">
+                    <Col>
                         <Button id={`${button[1].id}`} variant={`${button[1].variantType}`} href={`${button[1].hLink}`} size={`${button[1].size}`}> {`${button[1].name}`} </Button>
                     </Col>
+                </Row>
+                <Row>
+                    <h3 className="sub-title">{interestTitle}</h3>
+                    <p className="about-text">{interestsParagraph}</p>
+                </Row>
+                <Row>
+                    <h3 className="sub-title">{skillsTitle}</h3>
+                    {iconComponents}
                 </Row>
             </Container>
         </section>
@@ -60,4 +82,4 @@ const MyAbout = (props) => {
         );
 }
 
-export default MyAbout;
+export default About;

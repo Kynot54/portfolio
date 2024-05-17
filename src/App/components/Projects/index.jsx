@@ -1,18 +1,16 @@
 import Container from "react-bootstrap/Container";
 import Project from "./project.jsx"
 
-import {projects} from "../../data.jsx"
-
 import "./index.css"
 
 export default function ProjectList(props) {
-    const {title} = props
-    const projectsComponent = projects.map((project, id) => {
+    const {title, projects} = props
+    // React Fragment that Maps the Projects to the Project Component
+    const projectsComponent = projects.map((project) => {
         return <Project
         key={project.id}
         title={project.title}
         paragraph={project.paragraph}
-        seeMore={project.seeMore}
         sourceCode={project.sourceCode}
         image={project.image}
 />

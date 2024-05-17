@@ -4,6 +4,8 @@ import ReactDOM from 'react-dom/client'
 import App from './App/index.jsx'
 import './index.css'
 
+// Root Level of Project that Renders the App Component
+
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <App />

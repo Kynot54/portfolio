@@ -5,7 +5,7 @@
     transition: background-size 2s cubic-bezier(0,.61,1,.4);
     margin-top: 0;
     padding-bottom: 5rem;
-    overflow: true;
+    overflow: hidden;
 }
 
 #about.animated {
@@ -20,13 +20,22 @@
     color: white;
 }
 
-.about-text {
+.sub-title {
+    margin-top: 1.5rem;
+    padding: 2rem;
+    font-size: 7.5vw;
+    font-weight: 400;
     color: white;
-    font-size: 125%;
+}
+
+.about-text {
+    margin-top: 1vh;
+    color: white;
+    font-size: 5vw;
 }
 
 .about-paragraph {
-    text-align: center;
+    text-align: left;
 }
 
 #pro-pic {
@@ -35,7 +44,20 @@
     background-size: cover;
 }
 
-@media (min-width: 1440px) and (max-width: 2560px) {
+.icon-col{
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+}
+
+.icon-images{
+  display: block;
+  margin: auto;
+  padding: 10px;
+  border: 2px solid white;
+  border-radius: 10px;
+}
+
+@media (min-width: 768px) and (max-width: 2560px) {
     .about-text {
         font-size: 200%;
     }
@@ -47,5 +69,8 @@
     #pro-pic {
         align-self: center;
         padding-bottom: 1.5rem;
+    }
+    .icon-images{
+        align-self: center;
     }
 }
