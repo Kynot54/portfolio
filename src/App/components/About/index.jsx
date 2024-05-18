@@ -25,7 +25,7 @@ const About = (props) => {
                 }
             });
         }, {
-            threshold: 0.25
+            threshold: 0
         });
 
         aboutObserver.observe(aboutSection);
