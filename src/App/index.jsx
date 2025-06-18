@@ -1,9 +1,10 @@
 import Navigation from "./components/NavBar";
 import Heading from "./components/Header";
 import About from "./components/About";
-import Projects from "./components/Projects"
-import Contact from "./components/Contact"
-import Footer from "./components/Footer"
+import Projects from "./components/Projects";
+import Contact from "./components/Contact";
+import Footer from "./components/Footer";
+import { SpeedInsights } from "@vercel/speed-insights/react"; 
 
 import {text, icons, projects} from "./data.jsx"
 
@@ -22,6 +23,7 @@ function App() {
         <Projects title={text[3].title} projects={projects} className="viewport" />
         <Contact title={text[4].title} paragraph={text[4].paragraph} className="viewport" />
         <Footer className="viewport" />
+        <SpeedInsights />
     </div>
   );
 }
